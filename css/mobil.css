@@ -1,0 +1,39 @@
+@media (min-width: 320px) and (max-width: 720px) {
+  #desktop {
+    display: none;
+  }
+  .navbar-default {
+    background-color: #FFF;
+    padding-bottom: 1%;
+  }
+  #mobil {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  #img-logo-color {
+    padding: 3%;
+    padding-left: 25%;
+  }
+  
+  #menuhug {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+  }
+  .glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.4;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  /*Seccion app*/
+  .app-mobil {
+    display: none;
+  }
+}
