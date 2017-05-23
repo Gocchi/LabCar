@@ -8,6 +8,7 @@
   <title>Labcar</title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
 <body>
@@ -16,42 +17,47 @@
       <div class="container">
         <img src="img/logoForma.png">
         <ul class="col-md-offset-7 nav nav-pills">
-          
+
           <li role="presentation" class="disabled"><a href="#">Viaja</a></li>
           <li role="presentation" class="disabled"><a href="#">Conduce</a></li>
           <li role="presentation" class="disabled"><a href="#">Inicia Sesión</a></li>
-        
+
         </ul>
-      
+
       </div>
     </nav>
   </header>
   <section id="interaccionUsuario" class=" container-fluid col-md-12">
     <div>
-    <img src="img/taxi.jpg">
-     </div>
-  </section>
-  <section class="container-fluid" id="descargaApp">
-      <div class=" contenedor col-md-9">
-        <div id="imgCelular" class="col-md-6">
-          <img src="img/iPhone6Plus.png">
-        </div>
-        <div class="col-md-6">
-          <h2>Descarga la nueva app</h2>
-          <p>La versión actualizada de Labcar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
-          <p>Con sólo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir</p> 
-        </div>
-      </div>
-  </section>
-  <section class="container-fluid" id="conduce">
-    <div>
-      <img src="img/conduce.jpg">
+
     </div>
   </section>
-  <section class="container-fluid" id="tarifa">
-    <div>
-      <div id="ruta-tarifa">
-        <h4>Tarifas</h4>
+
+  <!-- Comienza seccion descargaApp -->
+  <section class="container-fluid" id="descargaApp">
+    <div class=" contenedor col-md-9">
+      <div id="imgCelular" class="col-md-6">
+        <img src="img/iPhone6Plus.png">
+      </div>
+      <div class="col-md-6">
+        <h2>Descarga la nueva app</h2>
+        <p>La versión actualizada de Labcar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
+        <p>Con sólo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comienza Verificacion de tarifa segun localizacion y destino -->
+  <section class="container-fluid" id="conduce">
+    <div id="panel" class="col-md-offset-8">
+      <h2>Conduce cuando quieras</h2>
+      <p>LabCar es una opción flexible para alcanzar tus metas financieras</p>
+      <button type="button" class="btn btn-warning">Conviertete en conductor</button>
+    </div>
+  </section>
+  <section class="container-fluid col-md-12" id="tarifa">
+      <div id="ruta-tarifa" class="col-md-4">
+        <h2>Tarifas</h2>
         <p>Consulta las tarifas LabCar aquí</p>
         <label>
         <input type="text" placeholder="Ingrese su punto de partida">
@@ -59,40 +65,90 @@
         <label>
         <input type="text" placeholder="Ingrese su destino">
           </label>
+        <input class="btn btn-default" type="submit" value="¡TRAZAR RUTA!">
       </div>
-      <div>
-        <img>
+      <!-- Google maps API -->
+      <div id="contenedor-map" class="col-md-5 col-md-offset-2">
+        <div id="map"></div>
       </div>
-    </div>
   </section>
+
+  <!-- Comienza footer -->
   <footer class="container-fluid">
-    <div>
+    <div id="logo-blanco" class="col-md-12">
       <img src="img/logoBlanco.png">
       <hr>
     </div>
-    <div>
-      <div id="logosRedes">
-        <i ></i>// font awesome
-      </div>
-      <div >
+    <div class="col-md-12">
+      <div class="col-md-3" id="logosRedes">
         <div>
-          <p></p>
-          <p></p>
-          <p></p>
-        </div>
-        <div>
-          <p></p>
-          <p></p>
-          <p></p>
-        
-        </div>
-        <div id="sistemasOp">
-          <img src="img/appstore.png">
-          <img src="img/enBadgeWebGeneric.png">
+          <i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <i class="fa fa-google-plus" aria-hidden="true"></i>
+          <i class="fa fa-youtube" aria-hidden="true"></i>
+          <i class="fa fa-instagram" aria-hidden="true"></i>
         </div>
       </div>
-    </div>
+      <div>
+        <div class="col-md-2">
+          <p>Viaja</p>
+          <p>Conduce</p>
+          <p>Ciudades</p>
+          <p>Entregas</p>
+          <p>¿Cómo funciona?</p>
+          <p>Países</p>
+          <p>Seguridad</p>
+        </div>
+        <div class="col-md-2">
+          <p>Oportunidades</p>
+          <p>Nuestra historia</p>
+          <p>Api de Labcar</p>
+          <p>Eventos</p>
+          <p>Desarrolladores</p>
+          <p>Servicios</p>
+          <p>Laboratoria</p>
+          <p>Coders</p>
+
+        </div>
+        <div class="col-md-5" id="sistemasOp">
+          <div>
+            <img src="img/appstore.png">
+          </div>
+          <div>
+            <img src="img/enBadgeWebGeneric.png">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <hr>
+      </div>
+      <div class="container-fluid" id="copyright">
+
+        <p class="col-md-12">2017 LabCar Technologies inc</p>
+      </div>
   </footer>
+  <!-- Script google maps API -->
+  <script>
+    function initMap() {
+      var uluru = {
+        lat: -25.363,
+        lng: 131.044
+      };
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 4,
+        center: uluru
+      });
+      var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+      });
+    }
+
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACrbYrubLHRlyVJxiOOOtW0LhUXSzA1GY&callback=initMap">
+
+
+  </script>
   <!-- Scripts bootstrap-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>

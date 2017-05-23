@@ -1,14 +1,17 @@
 header {
-  
   background-color: #FFF;
 }
 
-#interaccionUsuario div img {
+#interaccionUsuario {
+  background-image: url(../img/taxi.jpg);
+  background-size: cover;
+  background-position: bottom;
   width: 100%;
-  height: 50%;
+  height: 115vh;
 }
 
-#descargaApp, #tarifa {
+#descargaApp,
+#tarifa {
   background-color: #FAAE27;
   display: flex;
 }
@@ -22,21 +25,71 @@ header {
   margin-right: 3%;
   margin-bottom: 3%;
 }
-
-#conduce div img {
+/*Seccion conduce*/
+#conduce {
+  background-image: url(../img/conduce.jpg);
+  background-size: cover;
+  background-position: center;
   width: 100%;
-  
+  height: 100vh;
+}
+
+#panel {
+  color: #FFF;
+  background-color: rgba(0, 0, 0, .6);
+  padding: 3%;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #FAAE27;
+    border-color: #FAAE27;
+}
+
+
+
+/*Seccion tarifa*/
+
+#tarifa {
+  display: flex;
+  flex-direction: row;
+  padding: 3%;
+  color: #FFF;
 }
 
 #ruta-tarifa {
   display: flex;
   flex-direction: column;
 }
+
+#contenedor-map {
+  border: 1px solid #FFF;
+}
+
+#map {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: 50vh;
+  width: 100%;
+}
+
+
+/* Estilos footer */
+
 footer {
   background-color: #333;
+}
+
+footer {
+  color: #FFF;
+}
+
+#logo-blanco {
+  padding-top: 5%;
 }
 
 #sistemasOp {
   display: flex;
   flex-direction: column;
 }
+
+#copyright {}
