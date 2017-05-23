@@ -8,6 +8,27 @@ body{
   padding: 20px;;
 }
 
+.registrate{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  float:right;
+  background: #f9b442;
+  height: 300px;
+  padding: 20px;
+  margin-top: -500px;
+}
+
+.letras{
+  display: flex;
+  justify-content: center;
+}
+
+.boton{
+  margin-top: 20px;
+  display: block;
+}
+
 .amarillo {
   background: #f9b442;
   height: 600px;
@@ -31,4 +52,19 @@ h2{
 .app{
   font-size: 23px;
   padding: 30px;
+}
+
+.conduce{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  float:right;
+  background: rgba(0,0,0,0.5);
+  height: 300px;
+  padding: 40px;
+  margin-top: -600px;
+}
+
+.metas{
+  font-size: 18px;
 }
