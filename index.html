@@ -18,22 +18,27 @@
         <img src="img/logoForma.png">
         <ul class="col-md-offset-7 nav nav-pills">
 
-          <li role="presentation" class="disabled"><a href="#">Viaja</a></li>
-          <li role="presentation" class="disabled"><a href="#">Conduce</a></li>
-          <li role="presentation" class="disabled"><a href="#">Inicia Sesión</a></li>
+          <li role="presentation"><a href="#tarifa">Viaja</a></li>
+          <li role="presentation"><a href="#conduce">Conduce</a></li>
+          <li role="presentation"><a href="#">Inicia Sesión</a></li>
 
         </ul>
 
       </div>
     </nav>
   </header>
-  <section id="interaccionUsuario" class=" container-fluid col-md-12">
-    <div>
 
+  <!-- Comienza seccion Home -->
+  <section id="interaccionUsuario" class=" container-fluid col-md-12">
+    <div id="home" class="col-md-offset-7">
+      <h2>Disfruta del viaje <br> Eres dueño de tu tiempo</h2>
+      <h4>Viaja con <img src="img/logoBlanco.png"></h4>
     </div>
   </section>
 
+  
   <!-- Comienza seccion descargaApp -->
+  
   <section class="container-fluid" id="descargaApp">
     <div class=" contenedor col-md-9">
       <div id="imgCelular" class="col-md-6">
@@ -47,15 +52,22 @@
     </div>
   </section>
 
+  
   <!-- Comienza Verificacion de tarifa segun localizacion y destino -->
+  
   <section class="container-fluid" id="conduce">
-    <div id="panel" class="col-md-offset-8">
-      <h2>Conduce cuando quieras</h2>
-      <p>LabCar es una opción flexible para alcanzar tus metas financieras</p>
-      <button type="button" class="btn btn-warning">Conviertete en conductor</button>
-    </div>
-  </section>
-  <section class="container-fluid col-md-12" id="tarifa">
+    <section class="col-md-13">
+      <div id="panel" class="col-md-offset-8">
+        <h2>Conduce cuando quieras</h2>
+        <p class="col-md-12">LabCar es una opción flexible para alcanzar tus metas financieras</p>
+        <button type="button" class="btn btn-warning">Conviertete en conductor</button>
+      </div>
+    </section>
+    
+    
+    <!-- Comienza seccion viaja o tarifa de viaje -->
+    
+    <section class="container-fluid col-md-12" id="tarifa">
       <div id="ruta-tarifa" class="col-md-4">
         <h2>Tarifas</h2>
         <p>Consulta las tarifas LabCar aquí</p>
@@ -67,13 +79,17 @@
           </label>
         <input class="btn btn-default" type="submit" value="¡TRAZAR RUTA!">
       </div>
+
       <!-- Google maps API -->
       <div id="contenedor-map" class="col-md-5 col-md-offset-2">
         <div id="map"></div>
       </div>
+    </section>
   </section>
 
+
   <!-- Comienza footer -->
+
   <footer class="container-fluid">
     <div id="logo-blanco" class="col-md-12">
       <img src="img/logoBlanco.png">
