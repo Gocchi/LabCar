@@ -68,3 +68,47 @@ h2{
 .metas{
   font-size: 18px;
 }
+
+.form-group{
+  margin-top: 30px;
+}
+
+.consulta{
+  font-size: 20px;
+}
+
+.tarifas{
+  padding: 70px;
+}
+
+.input-group-addon{
+  background: rgba(0,0,0,0);
+  border: none;
+}
+
+.form-control{
+  background: rgba(0,0,0,0);
+  border: 0.5px solid #fff;
+  margin-left: 12px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.glyphicon{
+  color: #fff;
+  font-size: 20px;
+}
+
+.exampleInputAmount::placeholder{
+  color: #fff;
+}
+
+.trazar{
+  text-align: center;
+  padding: 40px;
+}
+
+.ruta{
+  padding: 12px;
+  width: 160px;
+}
