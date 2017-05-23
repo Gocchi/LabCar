@@ -33,12 +33,15 @@
     <div id="home" class="col-md-offset-7">
       <h2>Disfruta del viaje <br> Eres dueño de tu tiempo</h2>
       <h4>Viaja con <img src="img/logoBlanco.png"></h4>
+      <input class="btn btn-default" type="submit" value="REGÍSTRATE">
+      <hr> 
+      <input class="btn btn-default" type="submit" value="Conviertete en conductor">
     </div>
   </section>
 
-  
+
   <!-- Comienza seccion descargaApp -->
-  
+
   <section class="container-fluid" id="descargaApp">
     <div class=" contenedor col-md-9">
       <div id="imgCelular" class="col-md-6">
@@ -52,9 +55,9 @@
     </div>
   </section>
 
-  
+
   <!-- Comienza Verificacion de tarifa segun localizacion y destino -->
-  
+
   <section class="container-fluid" id="conduce">
     <section class="col-md-13">
       <div id="panel" class="col-md-offset-8">
@@ -63,20 +66,28 @@
         <button type="button" class="btn btn-warning">Conviertete en conductor</button>
       </div>
     </section>
-    
-    
+
+
     <!-- Comienza seccion viaja o tarifa de viaje -->
-    
+
     <section class="container-fluid col-md-12" id="tarifa">
       <div id="ruta-tarifa" class="col-md-4">
         <h2>Tarifas</h2>
         <p>Consulta las tarifas LabCar aquí</p>
+        <div class="inputs">
         <label>
-        <input type="text" placeholder="Ingrese su punto de partida">
-          </label>
-        <label>
-        <input type="text" placeholder="Ingrese su destino">
-          </label>
+          <img src="img/shape.png">
+          <input class="form-control input-sm" type="text" placeholder="Ingrese du punto de partida">
+        </label>
+        </div>
+        <div class="inputs">
+        <label class="col-md-12">
+          <div>
+          <img src="img/shape2.png">
+          </div>
+          <input class="form-control input-sm" type="text" placeholder="Ingrese su destino">
+        </label>
+          </div>
         <input class="btn btn-default" type="submit" value="¡TRAZAR RUTA!">
       </div>
 
@@ -100,9 +111,9 @@
         <div>
           <i class="fa fa-facebook" aria-hidden="true"></i></a>
           <i class="fa fa-twitter" aria-hidden="true"></i>
-          <i class="fa fa-google-plus" aria-hidden="true"></i>
-          <i class="fa fa-youtube" aria-hidden="true"></i>
-          <i class="fa fa-instagram" aria-hidden="true"></i>
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+          <i class="fa fa-apple" aria-hidden="true"></i>
+          <i class="fa fa-play" aria-hidden="true"></i>
         </div>
       </div>
       <div>
@@ -143,7 +154,10 @@
         <p class="col-md-12">2017 LabCar Technologies inc</p>
       </div>
   </footer>
+  
+  
   <!-- Script google maps API -->
+  
   <script>
     function initMap() {
       var uluru = {
@@ -162,10 +176,11 @@
 
   </script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACrbYrubLHRlyVJxiOOOtW0LhUXSzA1GY&callback=initMap">
-
-
   </script>
+  
+  
   <!-- Scripts bootstrap-->
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
 </body>
