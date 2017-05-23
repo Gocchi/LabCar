@@ -4,6 +4,12 @@
   display: none;
 }
 
+nav a{
+  color: #000;
+  padding-bottom: 10%;
+  font-size: 1.5em;
+}
+
 .navbar-default {
   background-color: #f8f8f8;
   border-color: #e7e7e7;
