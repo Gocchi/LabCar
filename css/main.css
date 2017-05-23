@@ -1,0 +1,42 @@
+header {
+  
+  background-color: #FFF;
+}
+
+#interaccionUsuario div img {
+  width: 100%;
+  height: 50%;
+}
+
+#descargaApp, #tarifa {
+  background-color: #FAAE27;
+  display: flex;
+}
+
+.contenedor {
+  display: flex;
+  border: 2px solid #FFF;
+  padding: 3%;
+  margin-top: 3%;
+  margin-left: -3%;
+  margin-right: 3%;
+  margin-bottom: 3%;
+}
+
+#conduce div img {
+  width: 100%;
+  
+}
+
+#ruta-tarifa {
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  background-color: #333;
+}
+
+#sistemasOp {
+  display: flex;
+  flex-direction: column;
+}
