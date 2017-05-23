@@ -114,5 +114,10 @@ h2{
 }
 
 .mapa{
-  padding: 50px;
+  padding: 70px;
+}
+
+footer{
+  background: black;
+  margin: 0;
 }
