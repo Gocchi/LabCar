@@ -2,13 +2,18 @@
   #desktop {
     display: none;
   }
+  
+  .mobil {
+    display: block;
+  }
   .navbar-default {
     background-color: #FFF;
     padding-bottom: 1%;
+    justify-content: space-around;
   }
   #mobil {
     display: flex;
-    justify-content: space-around;
+    
     
   }
   #img-logo-color {
@@ -33,7 +38,16 @@
     -moz-osx-font-smoothing: grayscale;
   }
   /*Seccion app*/
-  .app-mobil {
+  
+  .ocultar {
     display: none;
+  }
+  
+  #panel {
+    display: none;
+  }
+  
+  #panelmobil {
+    display: flex;
   }
 }
