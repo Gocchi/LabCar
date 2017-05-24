@@ -188,3 +188,9 @@ footer {
 .inline{
 	display: inline !important
 }
+.blanco-letra {
+  color: #FFF;
+}
+#header-registro {
+  background-color: #000;
+}
