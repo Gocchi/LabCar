@@ -25,18 +25,21 @@ nav a{
   align-items: center;
 }
 
-#home {
+#home,
+#home-mobil{
   color: #FFF;
   background-color: #FAAE27;
   padding: 5%;
   padding-right: 10%;
 }
 
-#home h2 {
+#home h2,
+#home-mobil h2{
   margin-bottom: 10%;
 }
 
-#home img {
+#home img,
+#home-mobil img{
   width: 20%;
 }
 
