@@ -2,7 +2,7 @@
   #desktop {
     display: none;
   }
-  
+
   .mobil {
     display: block;
   }
@@ -13,14 +13,14 @@
   }
   #mobil {
     display: flex;
-    
-    
+
+
   }
   #img-logo-color {
     padding: 3%;
     padding-left: 25%;
   }
-  
+
   #menuhug {
     display: flex;
     flex-direction: column;
@@ -38,15 +38,34 @@
     -moz-osx-font-smoothing: grayscale;
   }
   /*Seccion app*/
-  
+  #descargaApp{
+    display: flex;
+    height:400px;
+  }
+
+  .iphone{
+    height: 350px;
+    padding: 50px;
+  }
+
+  .descarga{
+    display:block;
+  }
+
+  .nueva-app{
+    display: flex;
+    align-items: flex-start;
+    color: #fff;
+  }
+
   .ocultar {
     display: none;
   }
-  
+
   #panel {
     display: none;
   }
-  
+
   #panelmobil {
     display: flex;
   }
