@@ -45,12 +45,42 @@
 			</div>
 		</div>
 
+  <!-- Modal registro-->
+		<div class="modal fade" id="modalSingIn" tabindex="-1" role="dialog" aria-labelledby="myModal">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					</div>
+					<div class="modal-body">
+						<form class="text-center">
+							<p><a href="#">¿YA TIENES UNA CUENTA?</a></p>
+							<p><a href="#">O CREA UNA CUENTA NUEVA</a></p>
+							<div class="row">
+								<label>
+									<input type="text" class="form-control" placeholder="Nombre" required/>
+									<input type="text" class="form-control" placeholder="Apellido" required/>
+                                    <input type="email" class="form-control" placeholder="Correo electrónico:name@example.com" required/>
+									<input type="tel" class="form-control" placeholder="Teléfono" required/>
+                                    <input type="password" class="form-control" placeholder="Contraseña" required/>
+                                    <input type="text" class="form-control" placeholder="Ciudad" required/>
+									<input type="number" class="form-control" placeholder="(Opcional) Código de invitación" required/>
+								</label>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer text-center">
+						<a href="#" class="btn btn-primary">ENVIAR</a>
+					</div>
+				</div>
+			</div>
+		</div>
 <!-- Inicia header -->
   <header id="desktop">
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <img src="img/logoForma.png">
-        <ul class="col-md-offset-7 nav nav-pills">
+        <ul class="col-md-offset-7 col-sm-offset-7 nav nav-pills">
 
           <li role="presentation"><a href="#tarifa">Viaja</a></li>
           <li role="presentation"><a href="#conduce">Conduce</a></li>
@@ -88,7 +118,7 @@
       <h2>Disfruta del viaje <br> Eres dueño de tu tiempo</h2>
       <h4>Viaja con <img src="img/logoBlanco.png"></h4>
       <!-- Button trigger modal -->
-      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalSingIn">
         REGÍSTRATE
       </button>
 
