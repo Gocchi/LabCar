@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Labcar</title>
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/main.css">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-  <link rel="stylesheet" href="css/mobil.css">
-</head>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Labcar</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/main.css">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="css/mobil.css">
+	</head>
 
-<body>
- 
-<!-- Modal iniciar sesion-->
+	<body>
+
+		<!-- Modal iniciar sesion-->
 		<div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
@@ -26,15 +26,13 @@
 						<form class="text-center">
 							<i class="fa fa-user-circle fa-5x" aria-hidden="true"></i>
 							<hr>
-							<div class="btn">
-								<i class="fa fa-user input-group-addon inline" aria-hidden="true"></i>
-								<input type="text" class="form-control inline" placeholder="Usuario">
-							</div>
+							<label class="btn">
+								<input type="text" class="form-control inline" placeholder="Usuario" required>
+							</label>
 							<br>
-							<div class="btn">
-								<i class="fa fa-envelope fa-lg input-group-addon inline" aria-hidden="true"></i>
-								<input type="text" class="form-control inline" placeholder="Password">
-							</div>
+							<label class="btn">
+								<input type="text" class="form-control inline" placeholder="Password" required>
+							</label>
 						</form>
 					</div>
 					<div class="modal-footer text-center">
@@ -45,7 +43,7 @@
 			</div>
 		</div>
 
-  <!-- Modal registro-->
+		<!-- Modal registro-->
 		<div class="modal fade" id="modalSingIn" tabindex="-1" role="dialog" aria-labelledby="myModal">
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
@@ -62,10 +60,10 @@
 								<label>
 									<input type="text" class="form-control" placeholder="Nombre" required/>
 									<input type="text" class="form-control" placeholder="Apellido" required/>
-                                    <input type="email" class="form-control" placeholder="Correo electrónico:name@example.com" required/>
+									<input type="email" class="form-control" placeholder="Correo electrónico:name@example.com" required/>
 									<input type="tel" class="form-control" placeholder="Teléfono" required/>
-                                    <input type="password" class="form-control" placeholder="Contraseña" required/>
-                                    <input type="text" class="form-control" placeholder="Ciudad" required/>
+									<input type="password" class="form-control" placeholder="Contraseña" required/>
+									<input type="text" class="form-control" placeholder="Ciudad" required/>
 									<input type="number" class="form-control" placeholder="(Opcional) Código de invitación" required/>
 								</label>
 							</div>
@@ -77,6 +75,7 @@
 				</div>
 			</div>
 		</div>
+
 <!-- Inicia header -->
   <header id="desktop">
     <nav class="navbar navbar-default navbar-fixed-top">
