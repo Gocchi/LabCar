@@ -52,7 +52,9 @@
 					</div>
 					<div class="modal-body">
 						<form class="text-center">
-							<p><a href="#">¿YA TIENES UNA CUENTA?</a></p>
+                          <div id="header-registro" class="btn">
+							<p><a class="blanco-letra" href="#">¿YA TIENES UNA CUENTA?</a></p>
+                          </div>
 							<p><a href="#">O CREA UNA CUENTA NUEVA</a></p>
 							<div class="row">
 								<label>
@@ -73,209 +75,210 @@
 				</div>
 			</div>
 		</div>
-		<!-- Inicia header -->
-		<header id="desktop">
-			<nav class="navbar navbar-default navbar-fixed-top">
-				<div class="container">
-					<img src="img/logoForma.png">
-					<ul class="col-md-offset-7 col-sm-offset-7 nav nav-pills">
 
-						<li role="presentation"><a href="#tarifa">Viaja</a></li>
-						<li role="presentation"><a href="#conduce">Conduce</a></li>
-						<li role="presentation"><a href="#" data-toggle="modal" data-target="#modalLogin"><!-- Button trigger modal -->
+<!-- Inicia header -->
+  <header id="desktop">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <img src="img/logoForma.png" alt="logo">
+        <ul class="col-md-offset-7 col-sm-offset-7 nav nav-pills">
 
-							Inicia Sesión
-							</a></li>
-						<!-- Button trigger modal -->
+          <li role="presentation"><a href="#tarifa">Viaja</a></li>
+          <li role="presentation"><a href="#conduce">Conduce</a></li>
+          <li role="presentation"><a href="#" data-toggle="modal" data-target="#modalLogin"><!-- Button trigger modal -->
+      
+        Inicia Sesión
+      </a></li>
+          <!-- Button trigger modal -->
+      
 
+        </ul>
 
-					</ul>
+      </div>
+    </nav>
+  </header>
+  
+  <!-- header version mobil -->
+  <header id="mobil">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div id="menuhug">
+        <span class="glyphicon glyphicon-minus"></span>
+        <span class="glyphicon glyphicon-minus"></span>
+        <span class="glyphicon glyphicon-minus"></span>
+        </div>
+        <img id="img-logo-color" src="img/logoForma.png" alt="logo">
+          
+      </div>
+    </nav>
+  </header>
 
-				</div>
-			</nav>
-		</header>
+  <!-- Comienza seccion Home -->
+  <section id="interaccionUsuario" class=" container-fluid col-md-12">
+    <div id="home" class="col-md-offset-7 col-sm-offset-7">
+      <h2>Disfruta del viaje <br> Eres dueño de tu tiempo</h2>
+      <h4>Viaja con <img src="img/logoBlanco.png" alt="logo"></h4>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalSingIn">
+        REGÍSTRATE
+      </button>
 
-		<!-- header version mobil -->
-		<header id="mobil">
-			<nav class="navbar navbar-default navbar-fixed-top">
-				<div class="container">
-					<div id="menuhug">
-						<span class="glyphicon glyphicon-minus"></span>
-						<span class="glyphicon glyphicon-minus"></span>
-						<span class="glyphicon glyphicon-minus"></span>
-					</div>
-					<img id="img-logo-color" src="img/logoForma.png">
-
-				</div>
-			</nav>
-		</header>
-
-		<!-- Comienza seccion Home -->
-		<section id="interaccionUsuario" class=" container-fluid col-md-12">
-			<div id="home" class="col-md-offset-7 col-sm-offset-7">
-				<h2>Disfruta del viaje <br> Eres dueño de tu tiempo</h2>
-				<h4>Viaja con <img src="img/logoBlanco.png"></h4>
-				<!-- Button trigger modal -->
-				<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalSingIn">
-					REGÍSTRATE
-				</button>
-
-				<hr> 
-				<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-					Conviertete en conductor
-				</button>
-			</div>
-		</section>
-
-
-		<!-- Comienza seccion descargaApp -->
-
-		<section class="container-fluid" id="descargaApp">
-			<div class=" contenedor col-md-9">
-				<div id="imgCelular" class="col-md-6">
-					<img src="img/iPhone6Plus.png">
-				</div>
-				<div class="col-md-6">
-					<h2><span class="ocultar">Descarga</span> la nueva app</h2>
-					<p class="ocultar">La versión actualizada de Labcar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
-					<p class="ocultar">Con sólo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir</p>
-				</div>
-			</div>
-		</section>
+      <hr> 
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+        Conviertete en conductor
+      </button>
+    </div>
+  </section>
 
 
-		<!-- Comienza Verificacion de tarifa segun localizacion y destino -->
+  <!-- Comienza seccion descargaApp -->
 
-		<section class="container-fluid" id="conduce">
-			<section class="col-md-13">
-				<div id="panel" class="col-md-offset-8 ocultar">
-					<h2>Conduce cuando quieras</h2>
-					<p class="col-md-12">LabCar es una opción flexible para alcanzar tus metas financieras</p>
-					<button type="button" class="btn btn-warning">Conviertete en conductor</button>
-				</div>
-				<div id="panelmobil" class="col-xs-12">
-					<h2>Conduce cuando quieras</h2>
-					<p class="col-md-12">LabCar es una opción flexible para alcanzar tus metas financieras</p>
-					<button type="button" class="btn btn-warning">Conviertete en conductor</button>
-				</div>
-			</section>
-
-
-			<!-- Comienza seccion viaja o tarifa de viaje -->
-
-			<section class="container-fluid col-md-12" id="tarifa">
-				<div id="ruta-tarifa" class="col-md-4">
-					<h2>Tarifas</h2>
-					<p>Consulta las tarifas LabCar aquí</p>
-					<div class="inputs">
-						<div class="col-md-2">
-							<img src="img/shape.png">
-						</div>
-						<input class="form-control input-sm col-md-10" type="text" placeholder="Ingrese du punto de partida">
-
-					</div>
-					<div class="inputs">
-						<div class="col-md-2">
-							<img src="img/shape2.png">
-						</div>
-						<input class="form-control input-sm col-md-10" type="text" placeholder="Ingrese su destino">
-					</div>
-					<input class="btn btn-default" type="submit" value="¡TRAZAR RUTA!">
-				</div>
-
-				<!-- Google maps API -->
-				<div id="contenedor-map" class="col-md-5 col-md-offset-2">
-					<div id="map"></div>
-				</div>
-			</section>
-		</section>
+  <section class="container-fluid" id="descargaApp">
+    <div class=" contenedor col-md-9">
+      <div id="imgCelular" class="col-md-6">
+        <img src="img/iPhone6Plus.png" alt="iphone">
+      </div>
+      <div class="col-md-6">
+        <h2><span class="ocultar">Descarga</span> la nueva app</h2>
+        <p class="ocultar">La versión actualizada de Labcar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
+        <p class="ocultar">Con sólo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir</p>
+      </div>
+    </div>
+  </section>
 
 
-		<!-- Comienza footer -->
+  <!-- Comienza Verificacion de tarifa segun localizacion y destino -->
 
-		<footer class="container-fluid">
-			<div id="logo-blanco" class="col-md-12 col-sm-12">
-				<img src="img/logoBlanco.png">
-
-			</div>
-			<div id="principal-footer" class="col-md-12">
-				<hr>
-				<div class="col-md-3" id="logos-redes">
-					<div>
-						<i class="fa fa-facebook" aria-hidden="true"></i></a>
-					<i class="fa fa-twitter" aria-hidden="true"></i>
-					<i class="fa fa-linkedin" aria-hidden="true"></i>
-					<i class="fa fa-apple" aria-hidden="true"></i>
-					<i class="fa fa-play" aria-hidden="true"></i>
-				</div>
-			</div>
-			<div>
-				<div class="col-md-offset-3 col-sm-offset-2 col-md-2 col-sm-2 col-xs-6">
-					<p>Viaja</p>
-					<p>Conduce</p>
-					<p>Ciudades</p>
-					<p>Entregas</p>
-					<p>¿Cómo funciona?</p>
-					<p>Países</p>
-					<p>Seguridad</p>
-				</div>
-				<div class="col-md-2 col-sm-2 ocultar">
-					<p>Oportunidades</p>
-					<p>Nuestra historia</p>
-					<p>Api de Labcar</p>
-					<p>Eventos</p>
-					<p>Desarrolladores</p>
-					<p>Servicios</p>
-					<p>Laboratoria</p>
-					<p>Coders</p>
-
-				</div>
-				<div class="col-md-5 col-sm-5 col-xs-6" id="sistemasOp">
-					<div>
-						<img src="img/appstore.png">
-					</div>
-					<div>
-						<img src="img/enBadgeWebGeneric.png">
-					</div>
-				</div>
-			</div>
-			<div class="col-md-12 col-sm-12">
-				<hr>
-			</div>
-			<div class="container-fluid" id="copyright">
-
-				<p class="col-md-12 col-sm-12">2017 LabCar Technologies inc</p>
-			</div>
-		</footer>
+  <section class="container-fluid" id="conduce">
+    <section class="col-md-13">
+      <div id="panel" class="col-md-offset-8 ocultar">
+        <h2>Conduce cuando quieras</h2>
+        <p class="col-md-12">LabCar es una opción flexible para alcanzar tus metas financieras</p>
+        <button type="button" class="btn btn-warning">Conviertete en conductor</button>
+      </div>
+      <div id="panelmobil" class="col-xs-12">
+        <h2>Conduce cuando quieras</h2>
+        <p class="col-md-12">LabCar es una opción flexible para alcanzar tus metas financieras</p>
+        <button type="button" class="btn btn-warning">Conviertete en conductor</button>
+      </div>
+    </section>
 
 
-		<!-- Script google maps API -->
+    <!-- Comienza seccion viaja o tarifa de viaje -->
 
-		<script>
-			function initMap() {
-				var uluru = {
-					lat: -25.363,
-					lng: 131.044
-				};
-				var map = new google.maps.Map(document.getElementById('map'), {
-					zoom: 4,
-					center: uluru
-				});
-				var marker = new google.maps.Marker({
-					position: uluru,
-					map: map
-				});
-			}
+    <section class="container-fluid col-md-12" id="tarifa">
+      <div id="ruta-tarifa" class="col-md-4">
+        <h2>Tarifas</h2>
+        <p>Consulta las tarifas LabCar aquí</p>
+        <div class="inputs">
+          <div class="col-md-2">
+          <img src="img/shape.png" alt="logo">
+          </div>
+          <input class="form-control input-sm col-md-10" type="text" placeholder="Ingrese du punto de partida">
+      
+        </div>
+        <div class="inputs">
+          <div class="col-md-2">
+          <img src="img/shape2.png" alt="logo">
+          </div>
+          <input class="form-control input-sm col-md-10" type="text" placeholder="Ingrese su destino">
+          </div>
+        <input class="btn btn-default" type="submit" value="¡TRAZAR RUTA!">
+      </div>
 
-		</script>
-		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACrbYrubLHRlyVJxiOOOtW0LhUXSzA1GY&callback=initMap">
-		</script>
+      <!-- Google maps API -->
+      <div id="contenedor-map" class="col-md-5 col-md-offset-2">
+        <div id="map"></div>
+      </div>
+    </section>
+  </section>
 
 
-		<!-- Scripts bootstrap-->
+  <!-- Comienza footer -->
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-	</body>
+  <footer class="container-fluid">
+    <div id="logo-blanco" class="col-md-12 col-sm-12">
+      <img src="img/logoBlanco.png" alt="logo">
+      
+    </div>
+    <div id="principal-footer" class="col-md-12">
+      <hr>
+      <div class="col-md-3" id="logos-redes">
+        <div>
+          <i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+          <i class="fa fa-apple" aria-hidden="true"></i>
+          <i class="fa fa-play" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div>
+        <div class="col-md-offset-3 col-sm-offset-2 col-md-2 col-sm-2 col-xs-6">
+          <p>Viaja</p>
+          <p>Conduce</p>
+          <p>Ciudades</p>
+          <p>Entregas</p>
+          <p>¿Cómo funciona?</p>
+          <p>Países</p>
+          <p>Seguridad</p>
+        </div>
+        <div class="col-md-2 col-sm-2 ocultar">
+          <p>Oportunidades</p>
+          <p>Nuestra historia</p>
+          <p>Api de Labcar</p>
+          <p>Eventos</p>
+          <p>Desarrolladores</p>
+          <p>Servicios</p>
+          <p>Laboratoria</p>
+          <p>Coders</p>
+
+        </div>
+        <div class="col-md-5 col-sm-5 col-xs-6" id="sistemasOp">
+          <div>
+            <img src="img/appstore.png" alt="logo">
+          </div>
+          <div>
+            <img src="img/enBadgeWebGeneric.png" alt="logo">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 col-sm-12">
+        <hr>
+      </div>
+      <div class="container-fluid" id="copyright">
+
+        <p class="col-md-12 col-sm-12">2017 LabCar Technologies inc</p>
+      </div>
+  </footer>
+  
+  
+  <!-- Script google maps API -->
+  
+  <script>
+    function initMap() {
+      var uluru = {
+        lat: -25.363,
+        lng: 131.044
+      };
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 4,
+        center: uluru
+      });
+      var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+      });
+    }
+
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACrbYrubLHRlyVJxiOOOtW0LhUXSzA1GY&callback=initMap">
+  </script>
+  
+  
+  <!-- Scripts bootstrap-->
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
 
 </html>
