@@ -1,8 +1,8 @@
-@media (min-width: 320px) and (max-width: 720px) {
+@media (min-width: 0px) and (max-width: 720px) {
   #desktop {
     display: none;
   }
-  
+
   .mobil {
     display: block;
   }
@@ -13,14 +13,14 @@
   }
   #mobil {
     display: flex;
-    
-    
+
+
   }
   #img-logo-color {
     padding: 3%;
     padding-left: 25%;
   }
-  
+
   #menuhug {
     display: flex;
     flex-direction: column;
@@ -37,16 +37,37 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+   
+   
   /*Seccion app*/
-  
+  #descargaApp{
+    display: flex;
+    height:400px;
+  }
+
+  .iphone{
+    height: 350px;
+    padding: 50px;
+  }
+
+  .descarga{
+    display:block;
+  }
+
+  .nueva-app{
+    display: flex;
+    align-items: flex-start;
+    color: #fff;
+  }
+
   .ocultar {
     display: none;
   }
-  
+
   #panel {
     display: none;
   }
-  
+
   #panelmobil {
     display: flex;
   }
@@ -60,7 +81,16 @@
   justify-content: center;
 
 }
+
 .font-movil{
   font-size: 4.0vw;
 }
 }
+
+@media (min-width: 720px){
+    #home-mobil{
+        display: none;
+    }
+}
+
+
