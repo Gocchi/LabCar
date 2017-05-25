@@ -1,9 +1,4 @@
 /* Estilo seccion nav*/
-
-#mobil {
-  display: none;
-}
-
 nav a{
   color: #000;
   padding-bottom: 10%;
@@ -193,32 +188,23 @@ nav a{
 /* Estilos footer */
 
 footer {
-  display: flex;
-  flex-direction: column;
   background-color: #333;
   color: #FFF;
-  width: 100%;
 }
 
-#logos-redes {
-  position: absolute;
-  left: 5%;
-  bottom: 20%;
-}
-
-#logo-blanco {
-  display: flex;
+.logo{
   padding-top: 5%;
 }
-
-#sistemasOp {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  bottom: 18%;
-  right: 0;
+.item-footer{
+  padding-top: 300px;
+}
+.item-footer img{
+  margin: 15px;
+}
+.footer-text p{
+  margin:20px;
 }
 
-#sistemasOp div {
-  padding: 2%;
-}
+@media
+
+
