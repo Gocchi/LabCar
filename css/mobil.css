@@ -50,4 +50,17 @@
   #panelmobil {
     display: flex;
   }
+
+  /*seccion tarifa*/
+#tarifa {
+
+  flex-direction: column;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+
+}
+.font-movil{
+  font-size: 4.0vw;
+}
 }
