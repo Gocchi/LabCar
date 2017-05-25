@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 720px) {
+@media (min-width: 0px) and (max-width: 720px) {
   #desktop {
     display: none;
   }
@@ -37,6 +37,8 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+   
+   
   /*Seccion app*/
   #descargaApp{
     display: flex;
@@ -70,3 +72,11 @@
     display: flex;
   }
 }
+
+@media (min-width: 720px){
+    #home-mobil{
+        display: none;
+    }
+}
+
+
