@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -74,8 +73,51 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div
 
+<!-- Modal conviertete en conductor-->
+<div class="modal fade" id="convierteconductor" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content content">
+
+      <div class="modal-body select-body">
+        <p>¿TIENES UN VEHICULO DE CUATRO PUERTAS?</p>
+        <select class="select">
+          <option value="Pick">Elige</option>
+          <option value="Pick">Si</option>
+          <option value="Pick">No</option>
+        </select>
+
+        <p>MARCA</p>
+        <select class="select">
+          <option value="Pick">Elige la marca del vehículo</option>
+        </select>
+        <p>¿No ves tu vehículo en la lista?. Envía un correo electrónico a <a href="#">sociosmvd@uber.com</a></p>
+
+        <p>MODELO</p>
+        <select class="select">
+          <option value="Pick">Elige un modelo del vehículo</option>
+        </select>
+
+        <p>AÑO</p>
+        <select class="select">
+          <option value="Pick">Elige el año del vehículo</option>
+        </select>
+
+        <p>NÚMERO DE LA MATRÍCULA</p>
+        <select class="select">
+          <option value="Pick">Número de la matrícula</option>
+        </select>
+        <p>La información de la matrícula ayuda a los clientes a identificar tu vehiículo</p>
+
+      </div>
+      <div class="modal-footer select-body">
+        <button type="button" class="btn btn-primary" data-dismiss="modal" style="width:20%; height:50px;">Close</button>
+        <button type="button" class="btn btn-primary" style="width:25%; height:50px;">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- Inicia header -->
   <header id="desktop">
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -85,19 +127,18 @@
 
           <li role="presentation"><a href="#tarifa">Viaja</a></li>
           <li role="presentation"><a href="#conduce">Conduce</a></li>
-          <li role="presentation"><a href="#" data-toggle="modal" data-target="#modalLogin"><!-- Button trigger modal -->
-      
+          <li role="presentation"><!-- Button trigger modal --><a href="#" data-toggle="modal" data-target="#modalLogin">
         Inicia Sesión
       </a></li>
           <!-- Button trigger modal -->
-      
+
 
         </ul>
 
       </div>
     </nav>
   </header>
-  
+
   <!-- header version mobil -->
   <header id="mobil">
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -109,6 +150,7 @@
         </div>
         <img id="img-logo-color" src="img/logoForma.png" alt="logo">
           
+
       </div>
     </nav>
   </header>
@@ -123,8 +165,8 @@
         REGÍSTRATE
       </button>
 
-      <hr> 
-      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+      <hr>
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#convierteconductor">
         Conviertete en conductor
       </button>
     </div>
@@ -184,7 +226,7 @@
           <img src="img/shape.png" alt="logo">
           </div>
           <input class="form-control input-sm col-md-10" type="text" placeholder="Ingrese du punto de partida">
-      
+
         </div>
         <div class="inputs">
           <div class="col-md-2">
@@ -208,13 +250,12 @@
   <footer class="container-fluid">
     <div id="logo-blanco" class="col-md-12 col-sm-12">
       <img src="img/logoBlanco.png" alt="logo">
-      
     </div>
     <div id="principal-footer" class="col-md-12">
       <hr>
       <div class="col-md-3" id="logos-redes">
         <div>
-          <i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <i class="fa fa-facebook" aria-hidden="true"></i>
           <i class="fa fa-twitter" aria-hidden="true"></i>
           <i class="fa fa-linkedin" aria-hidden="true"></i>
           <i class="fa fa-apple" aria-hidden="true"></i>
@@ -258,11 +299,12 @@
 
         <p class="col-md-12 col-sm-12">2017 LabCar Technologies inc</p>
       </div>
+    </div>
   </footer>
-  
-  
+
+
   <!-- Script google maps API -->
-  
+
   <script>
     function initMap() {
       var uluru = {
@@ -282,10 +324,10 @@
  </script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACrbYrubLHRlyVJxiOOOtW0LhUXSzA1GY&callback=initMap">
   </script>
-  
-  
+
+
   <!-- Scripts bootstrap-->
-  
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
 </body>
