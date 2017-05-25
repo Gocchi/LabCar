@@ -117,6 +117,11 @@ h2{
   padding: 70px;
 }
 
+#map {
+  height: 400px;
+  width: 100%;
+}
+
 footer{
   background: black;
   margin: 0;
