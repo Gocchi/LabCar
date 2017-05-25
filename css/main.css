@@ -1,3 +1,133 @@
+<<<<<<< HEAD
+body{
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar{
+  background: #fff;
+  padding: 20px;;
+}
+
+.registrate{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  float:right;
+  background: #f9b442;
+  height: 300px;
+  padding: 20px;
+  margin-top: -500px;
+}
+
+.letras{
+  display: flex;
+  justify-content: center;
+}
+
+.boton{
+  margin-top: 20px;
+  display: block;
+}
+
+.amarillo {
+  background: #f9b442;
+  height: 600px;
+}
+
+.celular{
+  margin-top: 70px;
+  border: 2px solid #fff;
+  border-left: 0;
+}
+
+.cel-largo{
+  padding: 30px;
+  max-height: 500px;
+}
+
+h2{
+  font-size: 40px;
+}
+
+.app{
+  font-size: 23px;
+  padding: 30px;
+}
+
+.conduce{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  float:right;
+  background: rgba(0,0,0,0.5);
+  height: 300px;
+  padding: 40px;
+  margin-top: -600px;
+}
+
+.metas{
+  font-size: 18px;
+}
+
+.form-group{
+  margin-top: 30px;
+}
+
+.consulta{
+  font-size: 20px;
+}
+
+.tarifas{
+  padding: 70px;
+}
+
+.input-group-addon{
+  background: rgba(0,0,0,0);
+  border: none;
+}
+
+.form-control{
+  background: rgba(0,0,0,0);
+  border: 0.5px solid #fff;
+  margin-left: 12px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.glyphicon{
+  color: #fff;
+  font-size: 20px;
+}
+
+.exampleInputAmount::placeholder{
+  color: #fff;
+}
+
+.trazar{
+  text-align: center;
+  padding: 40px;
+}
+
+.ruta{
+  padding: 12px;
+  width: 160px;
+}
+
+.mapa{
+  padding: 70px;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+footer{
+  background: black;
+  margin: 0;
+}
+=======
 /* Estilo seccion nav*/
 nav a{
   color: #000;
@@ -207,3 +337,4 @@ footer {
 }
 
 
+>>>>>>> upstream/master
